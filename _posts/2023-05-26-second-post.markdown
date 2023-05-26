@@ -1,3 +1,12 @@
 # Getting into Fastai
 
+Fastai has many great functions for modifying images like: 
+- *ResizeMethod.Squish()* which squishes the image to fit the prescribed size.
+- *ResizeMethod.Pad()* which pads the image to fit the prescribed size. 
+- *ResizeMethod.Crop()* which crops the image to fit the prescribed size. 
 
+These functions are used to train the models with cleaner data which produces greater results! The AI models still get "confused" during there training. In other words, the model will recognise an object as a category which it is not. The fastai library has a function which is able to plot this which is known as the confusion matrix.
+
+![Image of fast.ai logo](images/Confusion matrix.jpg)
+
+This is a great aid in the visual representation of the models accuracy. 
